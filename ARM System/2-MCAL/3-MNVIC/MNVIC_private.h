@@ -9,17 +9,17 @@
 
 #define MNVIC_BASE_ADDRES    0xE000E100
 
-#define MNVIC_ISER0          *((u32*)(MNVIC_BASE_ADDRES+0x000))
-#define MNVIC_ISER1          *((u32*)(MNVIC_BASE_ADDRES+0x004))
+#define MNVIC_ISER0          *((volatile u32*)(MNVIC_BASE_ADDRES+0x000))
+#define MNVIC_ISER1          *((volatile u32*)(MNVIC_BASE_ADDRES+0x004))
 
-#define MNVIC_ICER0          *((u32*)(MNVIC_BASE_ADDRES+0x080))
-#define MNVIC_ICER1          *((u32*)(MNVIC_BASE_ADDRES+0x084))
+#define MNVIC_ICER0          *((volatile u32*)(MNVIC_BASE_ADDRES+0x080))
+#define MNVIC_ICER1          *((volatile u32*)(MNVIC_BASE_ADDRES+0x084))
 
-#define MNVIC_ISPR0          *((u32*)(MNVIC_BASE_ADDRES+0x100))
-#define MNVIC_ISPR1          *((u32*)(MNVIC_BASE_ADDRES+0x104))
+#define MNVIC_ISPR0          *((volatile u32*)(MNVIC_BASE_ADDRES+0x100))
+#define MNVIC_ISPR1          *((volatile u32*)(MNVIC_BASE_ADDRES+0x104))
 
-#define MNVIC_ICPR0          *((u32*)(MNVIC_BASE_ADDRES+0x180))
-#define MNVIC_ICPR1          *((u32*)(MNVIC_BASE_ADDRES+0x184))
+#define MNVIC_ICPR0          *((volatile u32*)(MNVIC_BASE_ADDRES+0x180))
+#define MNVIC_ICPR1          *((volatile u32*)(MNVIC_BASE_ADDRES+0x184))
 
 #define MNVIC_IABR0          *((volatile u32*)(MNVIC_BASE_ADDRES+0x200))
 #define MNVIC_IABR1          *((volatile u32*)(MNVIC_BASE_ADDRES+0x204))

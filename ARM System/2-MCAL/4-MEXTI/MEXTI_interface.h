@@ -34,6 +34,12 @@ void MEXTI_voidEnableEXTI(u8 Copy_u8Line);
 void MEXTI_voidDisableEXTI(u8 Copy_u8Line);
 void MEXTI_voidSwTrigger(u8 Copy_u8Line);
 void MEXTI_voidSetSignalLatch(u8 Copy_u8Line,u8 Copy_u8Mode);
+void MEXTI_voidSetCallBack0(void (*Copy_ptr)(void));
+void MEXTI_voidSetCallBack1(void (*Copy_ptr)(void));
+void MEXTI_voidSetCallBack2(void (*Copy_ptr)(void));
+void MEXTI_voidSetCallBack3(void (*Copy_ptr)(void));
+void MEXTI_voidSetCallBack4(void (*Copy_ptr)(void));
+void MEXTI_voidClrPendingBit(u8 Copy_u8Line);
 
 
 #endif

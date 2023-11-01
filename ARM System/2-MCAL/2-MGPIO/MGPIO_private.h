@@ -12,32 +12,32 @@
 
 
                  /* REGISTERS FOR PORTA*/
-#define MGPIOA_CRL                          *((u32*)(MGPIOA_BASE_ADDRES+0x00))
-#define MGPIOA_CRH                          *((u32*)(MGPIOA_BASE_ADDRES+0x04))
-#define MGPIOA_IDR                          *((u32*)(MGPIOA_BASE_ADDRES+0x08))
-#define MGPIOA_ODR                          *((u32*)(MGPIOA_BASE_ADDRES+0x0C))
-#define MGPIOA_BSRR                         *((u32*)(MGPIOA_BASE_ADDRES+0x10))
-#define MGPIOA_BRR                          *((u32*)(MGPIOA_BASE_ADDRES+0x14))
-#define MGPIOA_LCKR                         *((u32*)(MGPIOA_BASE_ADDRES+0x18))
+#define MGPIOA_CRL                          *((volatile u32*)(MGPIOA_BASE_ADDRES+0x00))
+#define MGPIOA_CRH                          *((volatile u32*)(MGPIOA_BASE_ADDRES+0x04))
+#define MGPIOA_IDR                          *((volatile u32*)(MGPIOA_BASE_ADDRES+0x08))
+#define MGPIOA_ODR                          *((volatile u32*)(MGPIOA_BASE_ADDRES+0x0C))
+#define MGPIOA_BSRR                         *((volatile u32*)(MGPIOA_BASE_ADDRES+0x10))
+#define MGPIOA_BRR                          *((volatile u32*)(MGPIOA_BASE_ADDRES+0x14))
+#define MGPIOA_LCKR                         *((volatile u32*)(MGPIOA_BASE_ADDRES+0x18))
 
 
                   /* REGISTERS FOR PORTB*/
-#define MGPIOB_CRL                          *((u32*)(MGPIOB_BASE_ADDRES+0x00))
-#define MGPIOB_CRH                          *((u32*)(MGPIOB_BASE_ADDRES+0x04))
-#define MGPIOB_IDR                          *((u32*)(MGPIOB_BASE_ADDRES+0x08))
-#define MGPIOB_ODR                          *((u32*)(MGPIOB_BASE_ADDRES+0x0C))
-#define MGPIOB_BSRR                         *((u32*)(MGPIOB_BASE_ADDRES+0x10))
-#define MGPIOB_BRR                          *((u32*)(MGPIOB_BASE_ADDRES+0x14))
-#define MGPIOB_LCKR                         *((u32*)(MGPIOB_BASE_ADDRES+0x18))
+#define MGPIOB_CRL                          *((volatile u32*)(MGPIOB_BASE_ADDRES+0x00))
+#define MGPIOB_CRH                          *((volatile u32*)(MGPIOB_BASE_ADDRES+0x04))
+#define MGPIOB_IDR                          *((volatile u32*)(MGPIOB_BASE_ADDRES+0x08))
+#define MGPIOB_ODR                          *((volatile u32*)(MGPIOB_BASE_ADDRES+0x0C))
+#define MGPIOB_BSRR                         *((volatile u32*)(MGPIOB_BASE_ADDRES+0x10))
+#define MGPIOB_BRR                          *((volatile u32*)(MGPIOB_BASE_ADDRES+0x14))
+#define MGPIOB_LCKR                         *((volatile u32*)(MGPIOB_BASE_ADDRES+0x18))
 
                   /* REGISTERS FOR PORTC*/
-#define MGPIOC_CRL                          *((u32*)(MGPIOC_BASE_ADDRES+0x00))
-#define MGPIOC_CRH                          *((u32*)(MGPIOC_BASE_ADDRES+0x04))
-#define MGPIOC_IDR                          *((u32*)(MGPIOC_BASE_ADDRES+0x08))
-#define MGPIOC_ODR                          *((u32*)(MGPIOC_BASE_ADDRES+0x0C))
-#define MGPIOC_BSRR                         *((u32*)(MGPIOC_BASE_ADDRES+0x10))
-#define MGPIOC_BRR                          *((u32*)(MGPIOC_BASE_ADDRES+0x14))
-#define MGPIOC_LCKR                         *((u32*)(MGPIOC_BASE_ADDRES+0x18))
+#define MGPIOC_CRL                          *((volatile u32*)(MGPIOC_BASE_ADDRES+0x00))
+#define MGPIOC_CRH                          *((volatile u32*)(MGPIOC_BASE_ADDRES+0x04))
+#define MGPIOC_IDR                          *((volatile u32*)(MGPIOC_BASE_ADDRES+0x08))
+#define MGPIOC_ODR                          *((volatile u32*)(MGPIOC_BASE_ADDRES+0x0C))
+#define MGPIOC_BSRR                         *((volatile u32*)(MGPIOC_BASE_ADDRES+0x10))
+#define MGPIOC_BRR                          *((volatile u32*)(MGPIOC_BASE_ADDRES+0x14))
+#define MGPIOC_LCKR                         *((volatile u32*)(MGPIOC_BASE_ADDRES+0x18))
 
 
 

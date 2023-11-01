@@ -28,6 +28,9 @@
 #define EXTI14 14
 #define EXTI15 15
 
+#define PORTA  0000
+#define PORTB  0001
+#define PORTC  0010
 
 
 void MAFIO_voidSetEXTIConfiguration(u8 Copy_u8Line,u8 Copy_u8PortMap);

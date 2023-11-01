@@ -9,12 +9,12 @@
 
 typedef struct 
 {
-     u32 IMR;
-     u32 EMR;
-     u32 RTSR;
-     u32 FTSR;
-     u32 SWIER;
-     u32 PR;
+     volatile u32 IMR;
+     volatile u32 EMR;
+     volatile u32 RTSR;
+     volatile u32 FTSR;
+     volatile u32 SWIER;
+     volatile u32 PR;
 }EXTI_t;
 
 #define MEXTI   ((volatile EXTI_t *) 0x40010400 )
